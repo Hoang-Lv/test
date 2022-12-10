@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./font/fontawesome-free-6.1.2-web/css/all.css">
+    <link rel="stylesheet" href="./font/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Books Store</title>
+</head>
+<body>
+    <div id="app" class="grid wide">
+        <header class="header grid">
+            <div class="header__logo">
+                <a href="">
+                    <img src="./img/logo.jpg" alt="">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+            </div>
+            <div class="header__input">
+                <input type="text" placeholder="Nhập vào đây để tìm kiếm">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="header__category">
+                <span>Danh mục</span>
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+        <div class="category">
+            <ul class="category__list row">
+                
+            </ul>
+        </div>
+        <div class="container grid">
+            <div class="container__products grid">
+                <h3>TRUYỆN MỚI CẬP NHẬT</h3>
+                <ul class="list-wrap">
+                    <li class="item-wrap">
+                        <ul class="container__products-list row">
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="container__products-direction--wrap">
+                <input type="number" name="search-page" id="" min="1" value="1">
+                <a href="" class="container__products-direction__btn">Đến</a>
+
+                <a class="container__products-direction prev-page">
+                    <i class="fas fa-chevron-left"></i>
+                </a>
+                <div class="container__products-direction-total">10/40</div>
+                <a class="container__products-direction next-page">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="read__handle">
+            <div class="read__handle-wrap">
+                <div class="img">
+                    <div class="read__btn">
+                        <span>Đọc Truyện</span>
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2 class="title">Truyen Tan Thuy Hu</h2>
+                    <span class="author">tác giả</span>
+                    <p class="description">Mô tả</p>
+                </div>
+                <div class="description2 m-12">
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="read__handle-start">
+            <div class="start__title-wrap">
+                <div class="close__btn">Đóng</div>
+                <div class="search-page">
+                    <a href="" class="home-page">Home</a>
+                    <input type="number" name="search-page" id="" min="1" value="1">
+                    <a href="" class="search-page__btn">Đến</a>
+                </div>
+                <div class="page__direction-wrap">
+                    <a class="page__direction prev-page">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <div class="page-total"></div>
+                    <a class="page__direction next-page">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="start__reading">
+            </ul>
+            <div class="chat-icon">
+                <i class="fa-solid fa-comments"></i>
+                <div class="chat-wrap">
+                    <div class="close-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="chat-wrap__handle">
+                        <div class="chat-message__list">
+                        </div>
+                        <div class="chat-input__wrap">
+                            <input type="text" placeholder="Nhập tên của bạn !">
+                            <div class="send-mesenger">
+                                <textarea name="" id="" cols="15" rows="2" placeholder="Nhập nội dung của bạn !"></textarea>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="in4">
+                Đây là một sản phẩm nháp của Lưu Văn Hoàng 😘😘😘 !
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+    <script type="module" src="../java/main.js"></script>
+</body>
+</html>
